@@ -13,5 +13,7 @@ namespace ProyectoEnEquipoCrud.Context
 
         }
         public DbSet<Titulo> titulos { get; set; }
+        public DbSet<Salario> Salario { get; set; }
+
     }
 }
